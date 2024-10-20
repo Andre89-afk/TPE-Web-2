@@ -26,3 +26,10 @@ Diadrama de datos:
 A continuación se muestra el diagrama de la base de datos que ilustra las relaciones entre las tablas.
 
 ![Diagrama de la Base de Datos](diagrama.png)
+
+--PARTE 2--
+En esta parte logramos insertar "bolsos" desde la pagina web a la base de datos, ingresando obligatoriamentre un color 
+para poder separarlos en "categorias por color". 
+Los botones de "borrar" fueron implementados con exito y los de "ver" fueron implementados con algunos errores(no se incluye el css).
+La parte de iniciar sesion no fue posible de implementarla por falta de tiempo y experiencia.
+En un futuro vamos a implementarlo(si es posible en la entrega de la parte 3).
