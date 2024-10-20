@@ -1,0 +1,25 @@
+<?php require_once 'layout/header.phtml'; ?>
+
+<main>
+    <h2>Agregar un nuevo bolso</h2>
+    <form action="agregar" method="POST" class="form-bolso">
+        <div class="form-group">
+            <label for="nombre">Nombre del bolso:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color" required>
+        </div>
+
+        <div class="form-group">
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" name="precio" required>
+        </div>
+
+        <button type="submit">Agregar Bolsos</button>
+    </form>
+</main>
+
+<?php require_once 'layout/footer.phtml'; ?>
