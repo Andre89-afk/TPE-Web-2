@@ -28,6 +28,10 @@ A continuación se muestra el diagrama de la base de datos que ilustra las relac
 ![Diagrama de la Base de Datos](diagrama.png)
 
 --PARTE 2--
+--!!IMPORTANTE!!--
+Yo Andrea Anchordoquy tengo problemas con el dispositivo o con el editor, no se me guardan los ultimos cambios en vscode y
+no los puedo recuperar a tiempo para la entrega.
+-- 
 En esta parte logramos insertar "bolsos" desde la pagina web a la base de datos, ingresando obligatoriamentre un color 
 para poder separarlos en "categorias por color". 
 Los botones de "borrar" fueron implementados con exito y los de "ver" fueron implementados con algunos errores(no se incluye el css).
