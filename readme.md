@@ -28,12 +28,8 @@ A continuación se muestra el diagrama de la base de datos que ilustra las relac
 ![Diagrama de la Base de Datos](diagrama.png)
 
 --PARTE 2--
---!!IMPORTANTE!!--
-Yo Andrea Anchordoquy tengo problemas con el dispositivo o con el editor, no se me guardan los ultimos cambios en vscode y
-no los puedo recuperar a tiempo para la entrega.
--- 
-En esta parte logramos insertar "bolsos" desde la pagina web a la base de datos, ingresando obligatoriamentre un color 
-para poder separarlos en "categorias por color". 
-Los botones de "borrar" fueron implementados con exito y los de "ver" fueron implementados con algunos errores(no se incluye el css).
-La parte de iniciar sesion no fue posible de implementarla por falta de tiempo y experiencia.
-En un futuro vamos a implementarlo(si es posible en la entrega de la parte 3).
+En esta parte se implemento una zona para registrarse y para iniciar sesion. Una cuenta ya hecha en la base de datos es:
+Nombre: admin, Contraseña: admin, Correo admin@admin.com.
+Se implmento las funciones de agregar bolsos y categorias, donde solo los usuarios logueados pueden hacer funcionar,
+con sus respectivos botones de editar, ver y borrar.
+En la base hay una columna para el rol de los usuarios pero esta no se uso en ningun caso.

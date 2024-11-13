@@ -1,5 +1,3 @@
-/* public/css/styles.css */
-
 body {
     font-family: Arial, sans-serif;
     background-color: #F166B5;
@@ -19,7 +17,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+.nav1 {
     display: inline;
     margin: 0 10px;
 }
@@ -68,4 +66,45 @@ footer {
     padding: 10px 0;
     width: 100%;
     bottom: 0;
+}
+
+.Bnombre{
+    background-color: #DC218B;
+    border:solid black
+}
+
+.btn-ver, .btn-borrar, .btn-editar {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-ver, .btn-editar {
+    background-color: #4CAF50; /* Verde */
+}
+
+.btn-borrar {
+    background-color: #F44336; /* Rojo */
+}
+
+.btn-ver:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
+
+.btn-borrar:hover {
+    background-color: #e53935; /* Rojo más oscuro */
+}
+
+.bolso, .categoria-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.categoria-link{
+    background-color: white;
+    text-decoration: none;
 }

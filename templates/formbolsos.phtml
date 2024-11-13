@@ -1,5 +1,4 @@
 <?php require_once 'layout/header.phtml'; ?>
-
 <main>
     <h2>Agregar un nuevo bolso</h2>
     <form action="agregar" method="POST" class="form-bolso">
@@ -9,9 +8,34 @@
         </div>
 
         <div class="form-group">
-            <label for="color">Color:</label>
-            <input type="text" id="color" name="color" required>
+            <label for="categoria">Categoría:</label>
+            <select name="categoria" id="categoria">
+    <?php
+        if (!empty($categorias)) {
+            foreach ($categorias as $categoria): ?>
+                <option value="<?php echo $categoria->id_categoria; ?>">
+                    <?php echo $categoria->Categoria; ?>
+                </option>
+            <?php endforeach;
+        } else {
+            echo '<option value="">No hay categorías disponibles</option>';
+        }
+    ?>
+    </select>   
+    </div>
+        <div class="form-group">
+        <label for="color">Color:</label>
+    <select name="color" id="color" required>
+    <option value="Rojo">Rojo</option>
+    <option value="Azul">Azul</option>
+    <option value="Negro">Negro</option>
+    <option value="Verde">Verde</option>
+    <option value="Amarillo">Amarillo</option>
+    <option value="Blanco">Blanco</option>
+    <option value="Gris">Gris</option>
+</select>
         </div>
+        
 
         <div class="form-group">
             <label for="precio">Precio:</label>

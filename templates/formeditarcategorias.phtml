@@ -1,0 +1,11 @@
+<form action="<?php echo BASE_URL; ?>actualizarcategoria/<?php echo $categoria->id_categoria; ?>" method="POST">
+    <div class="form-group">
+        <label for="categoria">Editar Categoría:</label>
+        <input type="text" id="categoria" name="categoria" value="<?php echo htmlspecialchars($categoria->Categoria); ?>" required>
+    </div>
+    <button type="submit">Actualizar Categoría</button>
+</form>
+
+
+
+

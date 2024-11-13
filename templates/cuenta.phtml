@@ -1,0 +1,11 @@
+<?php session_start(); ?>
+<div class="cuenta"> 
+    <?php require 'templates/layout/header.phtml';
+     if (isset($_SESSION['id_usuario'])):  ?>
+        <a href="logout" class="ReSe">Cerrar sesión</a>
+    <?php else: ?>
+        <a href="registro" class="ReSe">Registrarse</a>
+        <a href="iniciar" class="ReSe">Iniciar sesión</a>
+    <?php endif; ?>
+</div>
+<?php require 'templates/layout/footer.phtml';
